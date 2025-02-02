@@ -1,0 +1,28 @@
+[MASTER]
+ignore=CVS
+
+[MESSAGES CONTROL]
+disable=C0111, W0621, R0903, W0212 # Missing docstring
+
+[REPORTS]
+output-format=colorized
+
+[FORMAT]
+max-line-length=100
+
+[BASIC]
+good-names=i,j,k,ex,Run,_
+
+[DESIGN]
+max-args=5
+max-locals=15
+max-returns=6
+max-branches=12
+max-statements=50
+max-parents=7
+max-attributes=10
+min-public-methods=2
+max-public-methods=20
+
+[TYPECHECK]
+generated-members=numpy.*,torch.*
